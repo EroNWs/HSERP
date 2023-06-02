@@ -1,0 +1,34 @@
+﻿
+
+— User Login
+	- “Username, Password” içeren bir login model gerekli
+	- login işlemi başarılıya -> Ana Ekrana 
+		(değil ise) =>  “Kullanıcı Bulanmadı!”
+
+— User Register (Admin (Yönetici) Şifresi ile Giriş yapabilicek) 
+	- “Username , Password , Email” bilgilerini içeren bir model gerekli
+	- Şifre iki kez sorulup onaylatılmalı
+	- email adresi doğrulanmalı (email validation)
+	- Kullanıcı Yekileri yer alacak. Bu yetkiler modül bazlı (Müşteri , Stok , Sipariş, Rapor) şeklinde olacak
+
+— Customer List
+	- Müşteri Bilgileri bir Gird üzerinde listelenmeli
+	- Liste içersinde “Müşteri kodu , Müşteri Adı , Veri Numarası, Vergi Dairesi , Merkez adres - 
+	Ülke Şehir,  ” gösterilmeli
+	- Üç adet aksiyon almalı - > Yeni Kayıt , Güncelle ve Sil
+
+
+— Customer Detail
+	- Tüm Müşteri bilgileri görüntülenmeli ve değiştirilebilmeli
+
+
+— Stock Liste ve Detay Ekranı
+	- “Stock Adı , Stock kodu, Birim Fiyatı”  bilgilerini içeren bir model olacak
+	- Customer daki gibi Listeleme ve Detay Ekranları yer alacak
+
+— Sipariş Ekranı
+	- Sipariş ana başlık, “Sipariş Tarihi , Numarası, Müşterisi” bilgilerini içeren bir model olacak
+	- Sipariş Detayı , “Sipariş Id , SiparişSatırid, ürünid ,adet” bilgilerini içeren bir model olacak
+
+— Repots
+	- Proje Sonunda değerlendirilecek
